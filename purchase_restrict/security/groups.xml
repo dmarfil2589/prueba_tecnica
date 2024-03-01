@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="restrict_user_purchase_creation" model="res.groups">
+        <field name="name">Users allow to create purchase orders</field>
+        <field name="category_id" ref="base.module_category_inventory_purchase"/>
+    </record>
+</odoo>
